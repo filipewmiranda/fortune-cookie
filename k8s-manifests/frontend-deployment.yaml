@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: fortune-cookie
+  #namespace: fortune-cookie
 spec:
   replicas: 1
   selector:
